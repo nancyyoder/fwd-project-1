@@ -15,7 +15,9 @@ This project is not possible without the implementation of JavaScript. I will us
 In my research for this project I have referenced multiple source about pollination and bees. I have mainly been looking at sources intended for kids to exemplify the type of communication my infographic will take on. 
 
 [https://www.coolkidfacts.com/pollination-for-kids/](https://www.coolkidfacts.com/pollination-for-kids/)
+
 [https://www.keepingbackyardbees.com/the-role-of-nectar-honey-and-pollen-in-the-hive/](https://www.keepingbackyardbees.com/the-role-of-nectar-honey-and-pollen-in-the-hive/)
+
 [https://www.ypsilibrary.org/2020/06/bees/](https://www.ypsilibrary.org/2020/06/bees/)
 
 
