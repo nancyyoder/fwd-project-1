@@ -44,3 +44,60 @@ My specific goals are listed below in list format:
     - zoom in second flower to describe the male and female parts of the flower
     - smooth transitions on these screen changes
     - roots animation showing them connecting when more flowers grow
+
+# Milestone 2
+
+For this milestone, I prototyped my project and proved the core functionality indeed works. Luckily, my prototyping process when smooth enough that I was able to build on my prototype and actually start making a final product. 
+The first thing I did was figure out how to make the bee move with the users mouse. I found this resource online that laid out the code in a really simple and straightforward way.
+[https://levelup.gitconnected.com/use-javascript-to-make-an-element-follow-the-cursor-3872307778b4](Check it out!)
+
+I thought this feature of my project would be super complicated and hard to figure out, but it was very simple and easy. This ease of coding right at the beginning of my project gave me a confidence boost and got me started off on the right foot. 
+
+The next thing I did was change the color of the flowers in my wireframe. Originally I had two yellow flowers and was going to refer to them as “the left flower” and “the right flower”. However, I wanted to add more color to my design and with my target audience in mind, I realized that young children might not know their lefts and rights yet (I sometimes even get them mixed up!). Once I added in the text on the top, my site looked just like my wireframe that I made for milestone 1.
+
+![Wireframe recreated in HTML and CSS](screen1.png)
+*Wirefram recreated in HTML and CSS - off to a good start*
+
+All of the elements graphics in my project were created on adobe illustrator, exported as a png and placed in my project. The flowers are placed using absolute position. I am not sure if this is the best, most responsive, way to place the flower, but I am going with it for now and will adjust if I run into problems (wish me luck!). 
+
+I played around with the Javascript, prototyping the text changing, displaying different instructions when the flowers are clicked. I only want the text to change when the center of the flower is clicked, right now it is changing when any part of the flower is clicked. This is on my fixer-upper to do list.
+
+![Prototyping with Javascript](screen2.png)
+*Prototyping with Javascript - so fun and cool*
+
+I needed to figure how to change the number of dots when the user clicks on the flowers. Don’t be mad at me, but I made 5 different version of each flower with varying amounts of dots. This method has already caused me issues (i.e. the flowers moving ever so slightly when clicked) and makes my code look terrifying, but I am rolling with it for now and will make it better if I can figure out how.
+
+![5 Flowers](screen3.png)
+*Remaking the flowers - don't judge me*
+
+I have a few setTimeout features implemented at this point, to control the flow of the experience. However, I need to play around with it more and see if this is the best option for my project. For example, these new flowers pop in after 1 second of the user completing the last step.
+
+![New Flowers Grew](screen4.png)
+*New flowers grew - yay!*
+
+Note: I know the bee is behind the flowers, I am going to fix this don’t worry!
+
+Overall, this project has been super fun and interesting so far. I have so many ideas that I need to contain to my stretch goals (i.e. text animation, sound effects, background music). I will reach my MVP once I fix all of the little bugs and implement a strict order of operations that the user cannot break.
+
+Here is my revised list of goals: 
+
+- Prototyping/proof of concept
+    - image following the mouse
+    - dots added/subtracted on click
+    - text instructions only moving forward once user has complete an action.
+- MVP (Minimum Viable Product)
+    - bee is the cursor
+    - when you click on the first flower the dots that represent pollen disappear
+    - when you click on the second flower the dots appear
+    - pick up one dot at a time (4) then place down one dot at a time (4)
+    - text at the top with instructions → based on the step the user is on
+    - once four dots are on the second flower, more flowers grow from its roots
+    - call to action at the end
+        - save the bees or we won’t have any flowers! (or other necessary plants)
+    - restart button
+- Stretch goals
+    - bee moves directions based on the direction the mouse is moving
+    - sound effects
+    - text animates in
+    - letters move when bee flies over them  
+    - background music
