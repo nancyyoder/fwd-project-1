@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#4AAFD3;
+}
+
+div{
+    position:absolute;
+    transform:translate(-50%,-50%);
+}
+
+#titleText {
+    text-align: center;
+    color: aliceblue;
+    font-size: 2.5em;
+}
+
+#orangeFlower {
+    position: absolute;
+    left: 250px;
+    bottom: -300px;
+}
+
+#pinkFlower {
+    position: absolute;
+    right: -100px;
+    bottom: -300px;
+}
+
+  @media (max-width: 900px) {
+    #titleText {
+        font-size: 1.5em;
+    }
+}
