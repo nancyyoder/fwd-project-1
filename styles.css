@@ -22,6 +22,18 @@ div{
     bottom: -300px;
 }
 
+#redFlower {
+    position: absolute;
+    left: 525px;
+    bottom: -300px;
+}
+
+#purpleFlower {
+    position: absolute;
+    right: 200px;
+    bottom: -300px;
+}
+
 #pinkFlower {
     position: absolute;
     right: -100px;
@@ -31,10 +43,5 @@ div{
   @media (max-width: 900px) {
     #titleText {
         font-size: 1.5em;
-    }
-
-    #pinkFlower {
-        width: 200px;
-        height: auto; 
     }
 }
