@@ -14,19 +14,164 @@ div{
     z-index: 1;
 } */
 
-#titleText {
+#goButton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    color: #4AAFD3;
+
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 3em;
+
+    position: absolute;
+    left: 45%;
+    bottom: 40%;
+
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+
+    border-radius: 30px;
+  }
+
+  #nextButton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    color: #4AAFD3;
+
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 3em;
+
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+
+    border-radius: 30px;
+  }
+
+  #externalButton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    color: #4AAFD3;
+
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 2em;
+
+    position: absolute;
+    left: 40%;
+    bottom: 35%;
+
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+
+    border-radius: 30px;
+  }
+
+  #playAgainButton {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    color: #4AAFD3;
+
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 2em;
+
+    position: absolute;
+    right: 40%;
+    bottom: 12%;
+
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+
+    border-radius: 30px;
+  }
+
+#instructions {
+    text-align: center;
+    color: aliceblue;
+    font-size: 2.5em;
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+}
+
+#endScreenText1 {
+    margin-top: 150px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3em;
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+}
+
+#endScreenText2 {
+    margin-top: 80px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3em;
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal;   
+}
+
+#frontPageTitle {
+    margin-top: 150px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3em;
+    font-family: bd-supper,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    
+}
+
+/* #titleText {
     text-align: center;
     color: aliceblue;
     font-size: 2.5em;
     font-family: bd-supper,sans-serif;
     font-weight: 700;
     font-style: normal;
-}
+} */
 
 #orangeFlower {
     position: absolute;
     left: 250px;
     bottom: -300px;
+}
+
+#littleBumbleBee {
+    position: absolute;
+    right: 160px;
+    top: 180px;
+}
+
+#littleFlower {
+    position: absolute;
+    left: 100px;
+    top: 320px;
 }
 
 #redFlower {
