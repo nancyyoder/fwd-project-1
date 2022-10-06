@@ -15,7 +15,10 @@ let orangeFlower = document.getElementById('orangeFlower');
 let orangeCounter = 0;
 let pinkCounter = 0;
 
-orangeFlower.addEventListener('click', () => {
+console.log(orangeFlower);
+
+orangeFlower.addEventListener("click", () => {
+    console.log("orange flower clicked")
     if(orangeCounter === 0) {
         document.getElementById("orangeImg").src="orangeFlower2.png";
         titleText.innerHTML = "BEES COLLECT POLLEN BECAUSE ... ";
@@ -63,8 +66,5 @@ pinkFlower.addEventListener('click', () => {
     }
     pinkCounter++;
     console.log("pink counter", pinkCounter);
-
-
-
 
 })

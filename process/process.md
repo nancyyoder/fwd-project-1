@@ -49,7 +49,7 @@ My specific goals are listed below in list format:
 
 For this milestone, I prototyped my project and proved the core functionality indeed works. Luckily, my prototyping process when smooth enough that I was able to build on my prototype and actually start making a final product. 
 The first thing I did was figure out how to make the bee move with the users mouse. I found this resource online that laid out the code in a really simple and straightforward way.
-[https://levelup.gitconnected.com/use-javascript-to-make-an-element-follow-the-cursor-3872307778b4](Check it out!)
+[Check it out!](https://levelup.gitconnected.com/use-javascript-to-make-an-element-follow-the-cursor-3872307778b4)
 
 I thought this feature of my project would be super complicated and hard to figure out, but it was very simple and easy. This ease of coding right at the beginning of my project gave me a confidence boost and got me started off on the right foot. 
 
