@@ -47,7 +47,7 @@ My specific goals are listed below in list format:
 
 # Milestone 2
 
-For this milestone, I prototyped my project and proved the core functionality indeed works. Luckily, my prototyping process when smooth enough that I was able to build on my prototype and actually start making a final product. 
+For this milestone, I prototyped my project and proved the core functionality indeed works. Luckily, my prototyping process went smooth enough that I was able to build on my prototype and actually start making a final product. 
 The first thing I did was figure out how to make the bee move with the users mouse. I found this resource online that laid out the code in a really simple and straightforward way.
 [Check it out!](https://levelup.gitconnected.com/use-javascript-to-make-an-element-follow-the-cursor-3872307778b4)
 
@@ -58,7 +58,7 @@ The next thing I did was change the color of the flowers in my wireframe. Origin
 ![Wireframe recreated in HTML and CSS](screen1.png)
 *Wirefram recreated in HTML and CSS - off to a good start*
 
-All of the elements graphics in my project were created on adobe illustrator, exported as a png and placed in my project. The flowers are placed using absolute position. I am not sure if this is the best, most responsive, way to place the flower, but I am going with it for now and will adjust if I run into problems (wish me luck!). 
+All of the graphics in my project were created on adobe illustrator, exported as a png, and placed in my project. The flowers are placed using absolute position. I am not sure if this is the best, most responsive, way to place the flower, but I am going with it for now and will adjust if I run into problems (wish me luck!). 
 
 I played around with the Javascript, prototyping the text changing, displaying different instructions when the flowers are clicked. I only want the text to change when the center of the flower is clicked, right now it is changing when any part of the flower is clicked. This is on my fixer-upper to do list.
 
