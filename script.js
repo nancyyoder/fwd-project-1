@@ -11,7 +11,7 @@ const onMouseMove = (e) =>{
 }
 document.addEventListener('mousemove', onMouseMove);
 
-let orangeFlower = document.getElementById('orangeFlower');
+let orangeFlower = document.getElementById('orangeClick');
 
 let orangeCounter = 0;
 let pinkCounter = 0;
@@ -32,7 +32,9 @@ orangeFlower.addEventListener("click", () => {
     else if(orangeCounter === 3) {
         document.getElementById("orangeImg").src="orangeFlower5.png";
         instructions.innerHTML = "CLICK ON THE PINK FLOWER TO DISTRIBUTE THE POLLEN";
-        let pinkFlower = document.getElementById('pinkFlower');
+        
+        let pinkFlower = document.getElementById('pinkClick');
+
     pinkFlower.addEventListener('click', () => {
         if(pinkCounter === 0) {
             document.getElementById("pinkImg").src="pink2.png";

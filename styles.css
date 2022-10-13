@@ -10,9 +10,9 @@ div{
     transform:translate(-50%,-50%);
 }
 
-/* #bumbleBee {
+#bumbleBee {
     z-index: 1;
-} */
+}
 
 button {
     border: none;
@@ -101,6 +101,36 @@ button {
 
     
 }
+#orangeClick {
+    z-index: 2;
+    height: 150px;
+    width: 150px;
+    /* background-color:blue; */
+    left: 250px;
+    bottom: 200px;
+  }
+
+  #pinkClick {
+    z-index: 2;
+    height: 150px;
+    width: 150px;
+    /* background-color: red; */
+    right: 160px;
+    bottom: 200px;
+  }
+
+  #nextClick {
+    z-index: 2;
+    height: 90px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    right: -60px;
+    bottom: -10px;
+  }
+
+
+
 
 #orangeFlower {
     position: absolute;
@@ -252,7 +282,27 @@ button {
         top: 400px;
     }
 
-    #firstPageIMG {
+    .firstPageIMG {
+        width: 50px;
+        height: 50px;
+    }
+
+    #lastFlower {
+        top: 100px;
+        left: 200px;
+    }
+
+    #lastBee {
+        top: 100px;
+        left: 300px;
+    }
+
+    #lastFlowerIMG {
+        width: 50px;
+        height: 50px;
+    }
+
+    #lastBeeIMG {
         width: 50px;
         height: 50px;
     }
