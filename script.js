@@ -60,7 +60,9 @@ orangeFlower.addEventListener("click", () => {
             }, 1000);
 
             setTimeout(() => {
+                let nextClick = document.getElementById('nextClick')
                 let nextButton = document.getElementById('nextButton');
+                nextClick.style.visibility = "visible";
                 nextButton.style.visibility = "visible";
             }, 2000);
             

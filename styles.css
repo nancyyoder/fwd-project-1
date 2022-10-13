@@ -123,7 +123,7 @@ button {
     z-index: 2;
     height: 90px;
     width: 200px;
-    background-color: red;
+    /* background-color: red; */
     position: absolute;
     right: -60px;
     bottom: -10px;
@@ -305,5 +305,33 @@ button {
     #lastBeeIMG {
         width: 50px;
         height: 50px;
+    }
+
+    #pinkClick {
+        z-index: 2;
+        height: 70px;
+        width: 70px;
+        /* background-color: pink; */
+        right: 32px;
+        bottom: 95px;
+    }
+
+    #orangeClick {
+        z-index: 2;
+        height: 70px;
+        width: 70px;
+        /* background-color: orange; */
+        left: 97px;
+        bottom: 95px;
+    }
+
+    #nextClick {
+        z-index: 2;
+        height: 50px;
+        width: 100px;
+        /* background-color: red; */
+        position: absolute;
+        right: -30px;
+        bottom: 10px;
     }
 }
