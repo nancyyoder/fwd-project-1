@@ -114,3 +114,5 @@ One challenge I faced was making the game responsive. I relied on media queries,
 I got a lot more comfortable with javascript while creating this project. I am excited to keep learning and developing best practices for myself when it comes to front end web development. Overall, I had a great time with this project and am excited to share it on my portfolio. I think it emulates my design style really well and matches the aesthetic of my portfolio. I really appreciated Peter’s comment about linking my project to the rest of the internet, and how that gives it more meaning. I hope to keep creating meaningful things in this class!
 
 [View it on my Portfolio!](https://nancyyoder.myportfolio.com/web-design)
+
+![Portfolio](screen5.png)
